@@ -747,14 +747,15 @@ input[type="submit"]:hover {
 /**WELCOME ***/
 .welcome-section {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #f7f5f6;
+    background-blend-mode: darken;
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
 .welcome-title {
-    color: #f708f7; /* Purple color */
+    color: #3bfd0a; /* Purple color */
     font-weight: bolder;
     font-size: 36px;
     text-transform: uppercase;
