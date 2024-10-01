@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(football10.jpg);
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 0;
+}
+
+.locations-container h1, em, u{
+text-align: center;
+
+}
+
+.coach-info {
+    background-color: #130909; /* Default background color */
+    color: #fbf9f9; /* Default text color */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.coach-info img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.coach-info strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.coach-info:hover {
+    background-color: #555; /* Background color change on hover */
+    color:chartreuse /* Text color changes to blue on hover */
+}
+
+
+.gallery {
+    display: grid;  /* Activate grid layout */
+    grid-template-columns: 1fr 1fr;  /* Two columns, each takes equal space */
+    gap: 20px;  /* Space between the images */
+    justify-items: center;  /* Center images horizontally within their grid cells */
+    align-items: center;  /* Align images vertically */
+    padding: 20px;
+    background-color: #130909;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.gallery img {
+    width: 100%;  /* Make images responsive, full width inside grid */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 300px;  /* Limit maximum image width */
+    border-radius: 50%;
+    margin-bottom: 10px;  /* Add some rounding to the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Add a shadow for a subtle 3D effect */
+    transition: transform 0.3s ease;  /* Add smooth transition for hover effect */
+    margin-left: 350px;
+    background-color: #130909;
+}
+
+.gallery:hover {
+    transform: scale(1.05);  /* Slightly enlarge the image on hover */
+    background-color: #555;
+    color:chartreuse
+}
+
+.gallery p{
+    color: white;
+}
+
+.gallery:hover p{
+    color:chartreuse
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.location-item1 {
+    background-color: #e3e72b;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-item2 {
+    background-color: #e3dd1e;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-item3 {
+    background-color: #ba269f;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-item4 {
+    background-color: #b825b8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-item5 {
+    background-color: #27a4d2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-item6 {
+    background-color: #44a6e8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.paragraph1 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.location1{
+    /* display: flex;
+    justify-content: end; */
+    background-image:url(football7.jpg) ;
+    
+
+}
+
+.location-info1{
+    color: rgb(16, 78, 224);
+    text-size-adjust: 100%;
+}
+
+.location-info1 p{
+    color:chartreuse;
+    text-size-adjust: 50px;
+}
+
+.location2{
+    /* display: flex;
+    justify-content: start; */
+    background-image:url(football7.jpg) ;
+    /* margin-right: 700px;
+   margin-left: 40px; */
+}
+
+.location-info2{
+    color: white;
+}
+
+.location-info2 p{
+    color:chartreuse;
+    text-size-adjust: 50px;
+}
+
+.location3{
+    /* display: flex;
+    justify-content: start; */
+    background-image:url(football7.jpg) ;
+    /* margin-left: 700px;
+    margin-right: 40px; */
+}
+
+.location-info3{
+    color: white;
+}
+
+.location-info3 p{
+    color:chartreuse;
+    text-size-adjust: 50px;
+}
+
+.location4{
+    background-image:url(football7.jpg) ;
+}
+
+.location-info4{
+    color: white;
+}
+
+.location-info4 p{
+    color:chartreuse;
+    text-size-adjust: 50px;
+}
+
+.location5{
+    background-image:url(football7.jpg) ;
+}
+
+.location-info5{
+    color: white;
+}
+
+.location-info5 p{
+    color:chartreuse;
+    text-size-adjust: 50px;
+}
+
+.locations-grid:hover{
+    transform: scale(1.05);  /* Slightly enlarge the image on hover */
+    background-color: #555;
+}
+
+/* Google Maps iframe */
+iframe {
+    width: 100%;
+    height: 180px;
+    border: none;
+}
+
+.location6{
+    background-image:url(football7.jpg) ;
+}
+
+.location-info6{
+    color: white;
+}
+
+.location-info6 p{
+    color:chartreuse;
+    text-size-adjust: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+    margin: 20px;
+}
+
+.testimonials {
+    background-color: #f4f4f4; /* Light background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+em {
+    font-style: italic;
+    color: #895151;
+}
+
+.testimonials:hover{
+    transform: scale(1.05);  /* Slightly enlarge the size on hover */
+    background-color: #ead110;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .location {
+        flex-direction: column;
+    }
+
+    .location-icon {
+        margin-bottom: 10px;
+    }
+}
