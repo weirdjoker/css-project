@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+} 
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a {
+    color: rgb(238, 13, 200);
+    text-decoration: dotted;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('path-to-font-folder/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+    color: rgb(240, 11, 22);
+    font-size: xx-large;
+}
+body {
+   font-family: 'roboto';
+   font-weight: 500;
+
+}
+
+.box {
+    padding: 20px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+#header {
+    border-style: ridge;
+}
+
+#about {
+    display: flex;
+}
+
+.about-content {
+    text-align: center;
+    background-color: rgb(87, 247, 239);
+    color: deeppink;
+    padding-right: 50px;
+
+}
+
+.work-resume-container {
+    display: flex;
+    justify-content: space-between;
+}
+#work, #resume {
+    flex:auto
+    margin: right 20px;
+
+}
+#work {
+    background-color: aqua;
+    border-style: inset;
+}
+#resume {
+    border-width: 5px;
+    border-style: groove;
+    text-align: center;
+}
+
+#about {
+    border-style: double;
+}
+
+#contact {
+    text-align: center;
+}
